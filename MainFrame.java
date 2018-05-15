@@ -108,8 +108,9 @@ public class MainFrame extends JFrame {
                                         }
                                         lab.setText(Double.toString(v3));
                                         op = -1;
+                                        break;
                                          default:
-                                        if(lab.getText().equals("0")||op>-1){
+                                        if(lab.getText().equals("0") || op>-1){
                                             lab.setText(jbtn1.getText());
                                         }
                                         else {
